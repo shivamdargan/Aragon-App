@@ -47,7 +47,7 @@ export default function Sidebar({ activeBoardId, onSelectBoard }: SidebarProps) 
   <aside
         className={`fixed h-screen top-0 left-0 w-64 bg-white text-black z-30 p-4 transition-transform duration-300 transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0 md:static md:flex md:flex-col md:justify-between`}
+        } md:translate-x-0 md:static md:flex md:flex-col md:justify-between border-gray-200 border-r`}
       >
      <h2 className="text-xl font-bold mb-4 flex items-center gap-2">
         <LayoutDashboard className="h-5 w-5" /> kanban
